@@ -39,7 +39,7 @@ body {
     font-weight: var(--fw-400);
     background-color: var(--color-netural-100);
     color: var(--color-neutral-800);
-    padding: 5.625rem var(--padding) 4.875rem var(--padding);
+    padding: 5.4rem var(--padding) 4.875rem var(--padding);
 }
 h1 {
     font-size: var(--fs-200);
@@ -126,6 +126,7 @@ h3 {
     background-color: var(--color-primary-blue);
 }
 /* 600px */
+
 @media (min-width: 37.5rem) {
     h1,
     h2 {
@@ -139,6 +140,9 @@ h3 {
         padding-top: 1rem;
     }
 
+    body {
+        padding-top: 5rem;
+    }
     .cards {
         max-width: 1110px;
         margin: 0 auto;
